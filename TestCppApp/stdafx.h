@@ -7,16 +7,18 @@
 
 #include "targetver.h"
 
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 #include <tchar.h>
 
 // TODO: reference additional headers your program requires here
-#include <complex>
 #include <iostream>
-#include <vector>
-#include <cmath>
-#include <algorithm>
+#include <iomanip>
 #include <list>
-#include <random>
-#include <memory>
-#include <atomic>
+#include <chrono>
+#include <sstream>
+#include <algorithm>
+#include <numeric>
+#include <regex>
+#include <intrin.h>
